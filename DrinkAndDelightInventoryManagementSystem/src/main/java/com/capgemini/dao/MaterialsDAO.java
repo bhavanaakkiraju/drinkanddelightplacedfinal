@@ -7,8 +7,8 @@ import com.capgemini.dto.GetMaterialsDetailsController;
 public class MaterialsDAO {
 
 	private static final Integer SupplierId = null;
-
-	public HashMap<Integer,GetMaterialsDetailsController> storeValue(GetMaterialsDetailsController a) {
+static String str;
+	public String storeValue(GetMaterialsDetailsController a) {
 		//HashMap<Integer,DDbean>
 		GetMaterialsDetailsController dd=new GetMaterialsDetailsController();
 	HashMap<Integer,GetMaterialsDetailsController> p=new HashMap<Integer,GetMaterialsDetailsController>();
@@ -18,9 +18,9 @@ public class MaterialsDAO {
 //System.out.println(OrderBean.getPrice_per_unit());
 //System.out.println(OrderBean.getQuanityunit());
 //System.out.println(OrderBean.getQuantityValue());
-System.out.println("Your order is placed sucessfully ");
+str= "Your order is placed sucessfully ";
 	
-	return null;
+	return str;
 	
 	
 	
